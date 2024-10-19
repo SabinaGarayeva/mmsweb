@@ -237,12 +237,12 @@
 
 .gifBox img {
   width: 100%;
-  transition: opacity 0.3s ease; /* Geçiş efekti */
+  transition: opacity 0.3s ease;
 }
 
 .gifBoxTwo {
   width: 100%;
-  opacity: 0; /* Başlangıçta görünmez */
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -251,11 +251,11 @@
 }
 
 .imageWrapper:hover .gifBox img {
-  opacity: 0; /* Hover durumunda ilk resmi kaybeder */
+  opacity: 0;
 }
 
 .imageWrapper:hover .gifBoxTwo {
-  opacity: 1; /* Hover durumunda ikinci resmi görünür yapar */
+  opacity: 1;
 }
 
 .pumpkinCont {
@@ -296,3 +296,6 @@
 .mTexLogo img {
   width: 100%;
 }
+
+/* spook-tacular start */
+
