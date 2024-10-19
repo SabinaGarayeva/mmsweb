@@ -1,0 +1,298 @@
+* {
+    font-family: "AllTogetherSans", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  word-break: break-word;
+}
+
+.bigHalloPicture {
+  background-image: url(https://cdn.media.amplience.net/i/marsmmsprod/Halloween-2022-Cohley-03?%24i%24=&w=1224&h=612&sm=c&fmt=auto&qlt=default);
+  position: relative;
+  width: 100%;
+  height: 750px;
+  filter: brightness(0.8);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Logo start */
+
+.mLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background: linear-gradient(
+      to right,
+      #da418c,
+      #d70100,
+      #ff6701,
+      #ffd200,
+      #00b035,
+      #0f79eb,
+      #be9fff,
+      #da408f
+    ),
+    white;
+  background-clip: border-box;
+  background-origin: border-box;
+}
+
+/* Logo end */
+
+.scaryTextBig {
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.1666666666666667;
+  color: #ffffff;
+}
+
+.designYour {
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+.scaryBig {
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
+  display: flex;
+}
+
+.bigHalloPicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scaryLink {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+/*gradient button start */
+
+.scaryLinkAll {
+  border-radius: 999rem;
+  padding: 11px 38px;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  gap: 19px;
+  justify-content: center;
+  display: inline-flex;
+  width: 300px;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 1rem;
+  z-index: 0;
+  line-height: 1.25;
+}
+
+.scaryLinkAll::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: bottom 200ms cubic-bezier(0.4, 0, 0.2, 1),
+    left 200ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: -1;
+  border-radius: 999rem;
+}
+
+.scaryLinkAll:hover::before {
+  bottom: -8px;
+  content: "";
+  height: 100%;
+  left: -7px;
+  position: absolute;
+  opacity: 1;
+  width: 100%;
+  transition-duration: 200ms;
+  z-index: -1;
+  border-radius: 999rem;
+}
+
+.scaryLinkAll::after {
+  border: 0.125rem solid #ffffff;
+  bottom: 0;
+  content: "";
+  border-radius: 999rem;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.scaryLinkDesign {
+  color: #5a1f06;
+  background-color: white;
+}
+
+.scaryLinkDesign:hover::before {
+  background: radial-gradient(
+    101.97% 2204.87% at 101.97% 40.83%,
+    #da418c 0%,
+    #d70100 15.27%,
+    #ff6701 29.33%,
+    #ffd200 43.4%,
+    #00b035 56.42%,
+    #0f79eb 71%,
+    #be9fff 84.54%,
+    #da408f 100%
+  );
+  transition: bottom 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    left 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.scaryLinkDesign:hover::after {
+  background: #ffffff;
+}
+
+.scaryLinkShop:hover {
+  color: #5a1f06;
+}
+
+.scaryLinkShop {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.scaryLinkShop:hover::before {
+  background-color: yellow;
+  transition: bottom 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    left 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.scaryLinkShop:hover::after {
+  background-color: white;
+}
+
+/* gradient button end */
+
+/* spook-tacular start */
+
+.spookTacular {
+  margin-top: 3rem;
+}
+
+.spookTacularCont {
+  text-align: center;
+}
+
+.spookText {
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.111;
+  color: #5a1f06;
+  margin-bottom: 1rem;
+}
+
+.swiperContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  .swiperContainer {
+    flex-wrap: wrap;
+  }
+}
+
+.swiperContAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.swiperCont {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+.gifBox, .gifBoxTwo {
+  width: 255px;
+  cursor: pointer;
+  position: relative;
+}
+
+.gifBox img {
+  width: 100%;
+  transition: opacity 0.3s ease; /* Geçiş efekti */
+}
+
+.gifBoxTwo {
+  width: 100%;
+  opacity: 0; /* Başlangıçta görünmez */
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.imageWrapper:hover .gifBox img {
+  opacity: 0; /* Hover durumunda ilk resmi kaybeder */
+}
+
+.imageWrapper:hover .gifBoxTwo {
+  opacity: 1; /* Hover durumunda ikinci resmi görünür yapar */
+}
+
+.pumpkinCont {
+  position: relative;
+}
+
+.gifBox img, .gifBoxTwo img {
+  width: 100%;
+}
+
+.giftBoxText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  gap: 10px;
+}
+
+.giftBoxText span {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.giftBoxText a {
+  font-weight: 700;
+  color: black;
+  font-size: 19px;
+}
+
+.mTexLogo {
+  width: 66px;
+  position: absolute;
+  right: 10px;
+  top: -40px;
+}
+
+.mTexLogo img {
+  width: 100%;
+}
