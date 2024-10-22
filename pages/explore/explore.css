@@ -5,7 +5,6 @@
 * {
   font-family: together;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
 }
 
 /* hero */
@@ -13,7 +12,6 @@
   background-image: url(../../assets/img/explore/M&M_Global_Purpose_Illustration_Closer_RGB.webp);
   background-size: cover;
   height: 90vh;
-  /*  */
   width: 100%;
 }
 
@@ -59,11 +57,17 @@
 .fund .fundPart {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: #040607;
+  margin: 6% 0;
 }
 
 .fund .fundImg img {
-  /* padding: 10px; */
+  width: 90%;
+}
+
+.fund .fundDesc {
+  width: 46%;
 }
 
 .fund .fundDesc span {
@@ -76,7 +80,9 @@
   font-size: 36px;
   font-weight: 700;
   color: #5a1f06;
+  margin-bottom: 15px;
 }
+
 .fund .fundDesc p {
   line-height: 1.625;
   font-weight: 300;
@@ -101,7 +107,6 @@
 }
 
 /* History */
-
 .historyContent {
   width: 85%;
   margin: 0 auto;
@@ -319,8 +324,6 @@
   background-color: #5a1f06;
   color: #fff;
   width: 100%;
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .bottom .bottomContent {
@@ -331,22 +334,43 @@
 }
 
 .bottom .bottomContent img {
-  width: 12%;
+  width: 15%;
 }
 
 .bottom p {
-  padding: 4% 15%;
+  padding: 1% 15% 3%;
 }
 
 .bottom .bottomVideo {
   width: 80%;
-  margin: 0 10%;
+  margin: 3% 10%;
 }
 
 .bottom .bottomVideo .video {
   width: 100%;
   height: 480px;
 }
+
+/* much text section start */
+.textBanner {
+  padding: 50px 5px 70px;
+}
+
+.textSpan {
+  font-size: 50px;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #5a1f06;
+}
+
+.andSpan {
+  font-size: 50px;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* much text section end */
 
 /* explore */
 .explore {
@@ -356,7 +380,6 @@
   justify-content: space-between;
   flex-direction: row;
   padding: 5%;
-  margin: -22px 0;
 }
 
 .explore .exploreItem {
@@ -373,8 +396,6 @@
 }
 
 .explore .exploreItem p {
-  /* font-size: 12px;
-  margin: 10px; */
   font-weight: 300;
   font-size: 0.875rem;
   line-height: 1.7142857142857142;
