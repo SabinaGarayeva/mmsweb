@@ -1,0 +1,471 @@
+.heroBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e74e1;
+  padding: 20px 60px;
+}
+.heroBannerRight img {
+  width: 226px;
+  height: 160px;
+}
+.gifList {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  display: flex;
+}
+.gifList span {
+  padding: 0px 0.25rem;
+  color: rgb(255, 255, 255);
+}
+.gifListItem {
+  color: rgb(255, 255, 255);
+  text-decoration: underline transparent;
+}
+.heroBannerLeft h2 {
+  margin: 0.5rem 0px;
+  font-size: 2.7rem;
+  line-height: 1.71429;
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+.heroBannerLeft p {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.71429;
+  color: #fff;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 0.25rem;
+}
+.list {
+  margin: 30px;
+  text-align: center;
+}
+.categoryNavigationSection {
+  background-color: #f3f6fa;
+  color: #040607;
+}
+.categoryImg {
+  background-color: rgb(250, 100, 0);
+  border-radius: 50%;
+  width: 6rem;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+.categoryImg:hover {
+  transform: scale(1.1);
+}
+
+.categoryImg_2 {
+  background-color: #0e74e1;
+  border-radius: 50%;
+  width: 6rem;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+.categoryImg_2:hover {
+  transform: scale(1.1);
+}
+
+.categoryImg_3 {
+  background-color: #ed9418;
+  border-radius: 50%;
+  width: 6rem;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+.categoryImg_3:hover {
+  transform: scale(1.1);
+}
+.categoryImg_4 {
+  background-color: #ffabdf;
+  border-radius: 50%;
+  width: 6rem;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+.categoryImg_4:hover {
+  transform: scale(1.1);
+}
+.categoryImg_5 {
+  background-color: #8aceff;
+  border-radius: 50%;
+  width: 6rem;
+  margin: 20px 0;
+  transition: transform 0.2s;
+}
+.categoryImg_5:hover {
+  transform: scale(1.1);
+}
+
+.categoryInfo {
+  font-family: AllTogetherSerif, "Times New Roman", Times, serif;
+  font-weight: 700;
+  line-height: 1.33333;
+  cursor: pointer;
+  color: #040607;
+}
+.productFilter {
+  background-color: #f3f6fa;
+}
+.productFilter .info {
+  padding: 0px 48px;
+}
+.productFilter .item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.buttonUnstyled {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  border: none;
+}
+.item i {
+  color: #5a1f06;
+}
+.typography {
+  font-family: AllTogetherSerif, "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.25;
+  color: rgb(90, 31, 6);
+}
+
+.swiperContainer {
+  background-color: #f3f6fa;
+}
+
+.spookTacular {
+  position: relative;
+}
+
+.spookTacular::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  z-index: -1;
+  top: -6%;
+  bottom: 45%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  width: 100%;
+  height: 446px;
+  background: #f3f6fa;
+  transform: translate(-50%, 100%);
+}
+
+.spookTacularCont {
+  text-align: center;
+}
+
+.spookText {
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 1.111;
+  color: #5a1f06;
+  margin-bottom: 1rem;
+}
+
+.swiperContainer {
+  display: flex;
+  align-items: center;
+  padding-top: 90px;
+}
+
+.swiperContAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.swiperCont {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+.gifBox,
+.gifBoxTwo {
+  width: 255px;
+  cursor: pointer;
+  position: relative;
+}
+
+.gifBox img {
+  width: 100%;
+  transition: opacity 0.3s ease;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.gifBoxTwo {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.imageWrapper:hover .gifBox img {
+  opacity: 0;
+}
+
+.imageWrapper:hover .gifBoxTwo {
+  opacity: 1;
+}
+
+.pumpkinCont {
+  position: relative;
+}
+
+.gifBox img,
+.gifBoxTwo img {
+  width: 100%;
+  padding: 30px;
+}
+
+.giftBoxText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.giftBoxText span {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.giftBoxText a {
+  font-weight: 700;
+  color: black;
+  font-size: 0.875rem;
+}
+
+.mTexLogo {
+  width: 66px;
+  position: absolute;
+  right: 30px;
+  top: -10px;
+  z-index: 10;
+}
+
+.mTexLogo img {
+  width: 100%;
+}
+
+.badgeText {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 0.5rem;
+  position: absolute;
+  left: 40px;
+  top: 1px;
+  background-color: rgb(90, 31, 6);
+  color: rgb(243, 246, 250);
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  z-index: 10;
+}
+.poroductBoxText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+  gap: 10px;
+}
+.rating i {
+  color: #ed9418;
+}
+.giftBoxText .btn {
+  font-family: AllTogetherSerif, "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 1.5rem;
+  padding: 0px 1.5rem;
+  color: rgb(90, 31, 6);
+  background-color: rgb(255, 210, 0);
+  padding: 0.875rem 1.5rem;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  text-overflow: ellipsis;
+}
+.giftBoxText .btn {
+  opacity: 0;
+}
+.giftBoxText:hover .btn {
+  box-shadow: rgb(90, 31, 6) -0.25rem 0.3125rem 0px;
+  opacity: 1;
+}
+.badgeText_2 {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 0.5rem;
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  background-color: #ffd200;
+  color: #5a1f06;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  z-index: 10;
+}
+.characters {
+  display: flex;
+}
+.character img {
+  width: 30px;
+  padding: 1px;
+}
+.badgeText_3 {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 0.5rem;
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  background-color: #0e74e1;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  z-index: 10;
+}
+.swiperCont .card {
+  background-color: #00a832;
+  color: #040607;
+  gap: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 10px;
+}
+.swiperCont .card h2 {
+  font-size: 2.25rem;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1111111111111112;
+}
+.swiperCont .card span {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+.swiperCont .card a {
+  color: #040607;
+  font-weight: 700;
+  font-family: "AllTogetherSans", -apple-system, "BlinkMacSystemFont",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  padding-bottom: 0.375rem;
+}
+.swiperCont .card img {
+  width: 100%;
+}
+.swiperCont .card_2 {
+  background-color: #8aceff;
+  color: #040607;
+  gap: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 10px;
+}
+.swiperCont .card_2 h2 {
+  font-size: 2.25rem;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.1111111111111112;
+  margin-bottom: 20px;
+}
+.swiperCont .card_2 span {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+.swiperCont .card_2 a {
+  color: #040607;
+  font-weight: 700;
+  font-family: "AllTogetherSans", -apple-system, "BlinkMacSystemFont",
+    "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  padding-bottom: 0.375rem;
+  margin-top: 30px;
+}
+.swiperCont .card_2 img {
+  width: 100%;
+}
+.badgeText_4 {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 0.5rem;
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  background-color: #00a832;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  z-index: 10;
+}
+.badgeText_5 {
+  font-family: AllTogetherSans, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  padding: 0.5rem;
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  background-color: #d70100;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  z-index: 10;
+}

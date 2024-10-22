@@ -1,19 +1,664 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="icon"
-    type="image/x-icon"
-    href="./assets/css/images/favicon.ico"
-  />
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/layout.css" />
-  <link rel="stylesheet" href="./assets/css/global.css" />
-  <title>Gifts | M&M's</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./assets/css/images/favicon.ico" />
+        <link rel="stylesheet" href="../../assets/css/reset.css" />
+        <link rel="stylesheet" href="../../assets/css/layout.css" />
+        <link rel="stylesheet" href="../../assets/css/global.css" />
+        <link rel="stylesheet" href="../gift/gift.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Gifts | M&M's</title>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <section class="heroBanner">
+                <div class="heroBannerLeft">
+                    <nav class="giftNavbar">
+                        <ul class="gifList">
+                            <li class="gifListItem">Home</li>
+                            <span>/</span>
+                            <li class="gifListItem">Shop</li>
+                            <span>/</span>
+                            <li class="gifListItem">Chocolate</li>
+                            <span>/</span>
+                            <li class="gifListItem">Gifts</li>
+                        </ul>
+                    </nav>
+                    <h2>gifts</h2>
+                    <p>Everyone loves a personalized gift, especially
+                        one that's sweet enough to eat.</p>
+                </div>
+                <div class="heroBannerRight">
+                    <img
+                        src="../../assets/css/images/giftimages/gift.png"
+                        alt="gift images">
+                </div>
+
+            </section>
+
+            <section class="categoryNavigationSection">
+                <nav class="navigation">
+                    <ul class="nav">
+                        <li class="list">
+                            <a href="../halloween/halloween.html">
+                                <div class="categoryImg">
+                                    <img
+                                        src="../../assets/css/images/giftimages/bat.png"
+                                        alt='halloween images'>
+                                </div>
+                                <span class="categoryInfo">halloween</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="../halloween/halloween.html">
+                                <div class="categoryImg_2">
+                                    <img
+                                        src="../../assets/css/images/giftimages/birthday.png"
+                                        alt='halloween images'>
+                                </div>
+                                <span class="categoryInfo">birthday</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="../halloween/halloween.html">
+                                <div class="categoryImg_3">
+                                    <img
+                                        src="../../assets/css/images/giftimages/rings.png"
+                                        alt='halloween images'>
+                                </div>
+                                <span class="categoryInfo">wedding</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="../halloween/halloween.html">
+                                <div class="categoryImg_4">
+                                    <img
+                                        src="../../assets/css/images/giftimages/hearts_4.png"
+                                        alt='halloween images'>
+                                </div>
+                                <span class="categoryInfo">anniversary</span>
+                            </a>
+                        </li>
+                        <li class="list">
+                            <a href="../halloween/halloween.html">
+                                <div class="categoryImg_5">
+                                    <img
+                                        src="../../assets/css/images/giftimages/rattle.png"
+                                        alt='halloween images'>
+                                </div>
+                                <span class="categoryInfo">baby</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="productFilter">
+                <div class="info">
+                    <div class="item">
+                        <button
+                            aria-haspopup="dialog"
+                            aria-label="filter &amp; sort"
+                            class="buttonUnstyled"
+                            type="button">
+                            <i class="fa-solid fa-sort"></i>
+                            <div class="typography">
+                                filter &amp; sort
+                            </div>
+                        </button>
+                        <span class="typographyBodySmall">67
+                            item(s)
+                        </span>
+                    </div>
+                    <hr
+                        class="fullWidth"
+                        aria-hidden="true">
+                </div>
+            </section>
+            <section class="swiperContainer">
+                <div class="swiperContAll">
+                    <div class="swiperCont">
+                        <span class="badgeText">Best Seller!</span>
+                        <div class="mTexLogo">
+                            <img
+                                src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                alt="Mlogo">
+                        </div>
+                        <div class="pumpkinCont">
+                            <div class="imageWrapper">
+                                <div class="gifBox">
+                                    <div>
+                                        <img
+                                            src="../../assets/css/images/giftimages/product_1.png"
+                                            alt="Mlogo">
+                                    </div>
+                                    <div class="giftBoxText">
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <span>(2560)</span>
+                                        </div>
+                                        <a href="#">Bulk Candy</a>
+                                        <span>$49.99</span>
+                                        <span style="color: #0e74e1;">15% Off
+                                            Bulk Candy with code FARM<span>
+                                                <button class="btn">quick
+                                                    shop</button>
+                                            </div>
+                                        </div>
+                                        <div class="gifBoxTwo">
+                                            <img
+                                                src="../../assets/css/images/giftimages/product_1hover.png"
+                                                alt="Mlogo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: -70px;" class="swiperContAll">
+                            <div class="swiperCont">
+                                <span class="badgeText_2">Add Your Text</span>
+                                <div class="mTexLogo">
+                                    <img
+                                        src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                        alt="Mlogo">
+                                </div>
+                                <div class="pumpkinCont">
+                                    <div class="imageWrapper">
+                                        <div class="gifBox">
+                                            <div>
+                                                <img
+                                                    src="../../assets/css/images/giftimages/product_2.png"
+                                                    alt="Mlogo">
+                                            </div>
+                                            <div class="giftBoxText">
+                                                <div class="rating">
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-regular fa-star"></i>
+                                                    <span>(318)</span>
+                                                </div>
+
+                                                <a href="#">Candy Dispenser with
+                                                    Custom Packaging</a>
+                                                <span>$59.99</span>
+                                                <div class="characters">
+                                                    <div class="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_characters.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_gradyear.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_present.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_congrats.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_purpletulip.png"
+                                                            alt="character">
+                                                        <span
+                                                            class="characterPlus">+5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gifBoxTwo">
+                                            <img
+                                                src="../../assets/css/images/giftimages/product_1hover.png"
+                                                alt="Mlogo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top: -70px;" class="swiperContAll">
+
+                            <div class="swiperCont">
+                                <span class="badgeText_2">Add Your Text</span>
+                                <div class="mTexLogo">
+                                    <img
+                                        src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                        alt="Mlogo">
+                                </div>
+                                <div class="pumpkinCont">
+                                    <div class="imageWrapper">
+                                        <div class="gifBox">
+                                            <div>
+                                                <img
+                                                    src="../../assets/css/images/giftimages/product_2.png"
+                                                    alt="Mlogo">
+                                            </div>
+                                            <div class="giftBoxText">
+                                                <div class="rating">
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-regular fa-star"></i>
+                                                    <span>(102)</span>
+                                                </div>
+
+                                                <a href="#">Gift Jar with Custom
+                                                    Packaging</a>
+                                                <span>34.99</span>
+                                                <div class="characters">
+                                                    <div class="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_characters.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_gradyear.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_present.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_congrats.png"
+                                                            alt="character">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/variant_sticker_purpletulip.png"
+                                                            alt="character">
+                                                        <span
+                                                            class="characterPlus">+5</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="gifBoxTwo">
+                                            <img
+                                                src="../../assets/css/images/giftimages/product_1hover.png"
+                                                alt="Mlogo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiperContAll">
+                        <div class="swiperCont">
+                            <span class="badgeText">Best Seller!</span>
+                            <div class="mTexLogo">
+                                <img
+                                    src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                    alt="Mlogo">
+                            </div>
+                            <div class="pumpkinCont">
+                                <div class="imageWrapper">
+                                    <div class="gifBox">
+                                        <div>
+                                            <img
+                                                src="../../assets/css/images/giftimages/product_4.png"
+                                                alt="Mlogo">
+                                        </div>
+                                        <div class="giftBoxText">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <span>(48)</span>
+                                            </div>
+                                            <a href="#">Gift Jar</a>
+                                            <span>$29.99</span>
+                                            <div> <i
+                                                    class="fa-solid fa-heart"></i>
+                                                <span>Accessories<span></div>
+                                                    <button class="btn">quick
+                                                        shop</button>
+                                                </div>
+                                            </div>
+                                            <div class="gifBoxTwo">
+                                                <img
+                                                    src="../../assets/css/images/giftimages/product_4hover.png"
+                                                    alt="Mlogo">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            </section>
+
+            <section class="swiperContainer">
+                            <div class="swiperContAll">
+                                <div class="swiperCont">
+                                    <div class="card">
+                                        <h2>add a gift tube for <br> your
+                                            jar</h2>
+                                        <span>personalize your candy. <br>
+                                            select the gift jar as your <br>
+                                            package. add a gift tube to <br> tie
+                                            it all together.</span> <br>
+                                        <a href="#">shop now</a>
+                                        <img
+                                            src="../../assets/css/images/giftimages/product_5.png"
+                                            alt>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiperCont">
+                                <span class="badgeText_3">Limited
+                                    Edition!</span>
+                                <div class="pumpkinCont">
+                                    <div class="imageWrapper">
+                                        <div class="gifBox">
+                                            <div>
+                                                <img
+                                                    src="../../assets/css/images/giftimages/product_6.png"
+                                                    alt="Mlogo">
+                                            </div>
+                                            <div class="giftBoxText">
+                                                <div class="rating">
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <i
+                                                        class="fa-solid fa-star"></i>
+                                                    <span>(2560)</span>
+                                                </div>
+                                                <a href="#">Bulk Candy</a>
+                                                <span>$49.99</span>
+                                                <span
+                                                    style="color: #0e74e1;">15%
+                                                    Off Bulk Candy with code
+                                                    FARM<span>
+                                                        <button
+                                                            class="btn">quick
+                                                            shop</button>
+                                                    </div>
+                                                </div>
+                                                <div class="gifBoxTwo">
+                                                    <img
+                                                        src="../../assets/css/images/giftimages/product_6hover.png"
+                                                        alt="Mlogo">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiperCont">
+
+                                        <div class="pumpkinCont">
+                                            <div class="imageWrapper">
+                                                <div class="gifBox">
+                                                    <div>
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/product_7.png"
+                                                            alt="Mlogo">
+                                                    </div>
+                                                    <div class="giftBoxText">
+                                                        <div class="rating">
+                                                            <i
+                                                                class="fa-solid fa-star"></i>
+                                                            <i
+                                                                class="fa-solid fa-star"></i>
+                                                            <i
+                                                                class="fa-solid fa-star"></i>
+                                                            <i
+                                                                class="fa-solid fa-star"></i>
+                                                            <i
+                                                                class="fa-solid fa-star"></i>
+                                                            <span>(1)</span>
+                                                        </div>
+                                                        <a href="#">Halloween
+                                                            Bundle Gift Box</a>
+                                                        <span>$39.99</span>
+                                                        <span
+                                                            style="color: #0e74e1;">15%
+                                                            Off Bulk Candy with
+                                                            code FARM<span>
+                                                                <button
+                                                                    class="btn">quick
+                                                                    shop</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gifBoxTwo">
+                                                            <img
+                                                                src="../../assets/css/images/giftimages/product_7hover.png"
+                                                                alt="Mlogo">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiperCont">
+                                                <div class="mTexLogo">
+                                                    <img
+                                                        src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                                        alt="Mlogo">
+                                                </div>
+                                                <div class="pumpkinCont">
+                                                    <div class="imageWrapper">
+                                                        <div class="gifBox">
+                                                            <div>
+                                                                <img
+                                                                    src="../../assets/css/images/giftimages/product_9.png"
+                                                                    alt="Mlogo">
+                                                            </div>
+                                                            <div
+                                                                class="giftBoxText">
+                                                                <div
+                                                                    class="rating">
+                                                                    <i
+                                                                        class="fa-solid fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid fa-star"></i>
+                                                                    <i
+                                                                        class="fa-solid fa-star"></i>
+                                                                    <span>(4)</span>
+                                                                </div>
+                                                                <a
+                                                                    href="#">Halloween
+                                                                    Gift Jar</a>
+                                                                <span>$29.99</span>
+                                                                <button
+                                                                    class="btn">quick
+                                                                    shop</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="gifBoxTwo">
+                                                            <img
+                                                                src="../../assets/css/images/giftimages/product_9hover.png"
+                                                                alt="Mlogo">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+            </section>
+            <section class="swiperContainer">                          
+                                <div class="swiperCont">
+                                    <span class="badgeText_4">NEW!</span>
+                                    <div class="mTexLogo">
+                                        <img
+                                            src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                            alt="Mlogo">
+                                    </div>
+                                    <div class="pumpkinCont">
+                                        <div class="imageWrapper">
+                                            <div class="gifBox">
+                                                <div>
+                                                    <img
+                                                        src="../../assets/css/images/giftimages/product_11.png"
+                                                        alt="Mlogo">
+                                                </div>
+                                                <div class="giftBoxText">
+                                                        <a href="#">Mini Handheld Dispensers with <br> Personalized M&M’S® Candies (3 <br> each)</a>
+                                                    <span>$49.99</span>
+                                                    <span
+                                                        style="color: #0e74e1;">15%
+                                                        Off Bulk Candy with code
+                                                        FARM<span>
+                                                            <button
+                                                                class="btn">quick
+                                                                shop</button>
+                                                        </div>
+                                                    </div>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiperCont">
+                                            <span class="badgeText_5">SALE!</span>
+                                            <div class="mTexLogo">
+                                                <img
+                                                    src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                                    alt="Mlogo">
+                                            </div>
+                                            <div class="pumpkinCont">
+                                                <div class="imageWrapper">
+                                                    <div class="gifBox">
+                                                        <div>
+                                                            <img
+                                                                src="../../assets/css/images/giftimages/product_12.png"
+                                                                alt="Mlogo">
+                                                        </div>
+                                                        <div
+                                                            class="giftBoxText">
+                                                            <div class="rating">
+                                                                <i
+                                                                    class="fa-solid fa-star"></i>
+                                                                <i
+                                                                    class="fa-solid fa-star"></i>
+                                                                <i
+                                                                    class="fa-solid fa-star"></i>
+                                                                <i
+                                                                    class="fa-solid fa-star"></i>
+                                                                <i
+                                                                    class="fa-solid fa-star"></i>
+                                                                <span>(15)</span>
+                                                            </div>
+                                                            <a
+                                                                href="#">Wedding Cake Gift Box  </a>
+                                                            <span>$29.99</span>
+                                                            <del>$39.99</del>
+                                                            <span
+                                                                style="color: #0e74e1;">15%
+                                                                Off Bulk Candy
+                                                                with
+                                                                code FARM<span>
+                                                                    <button
+                                                                        class="btn">quick
+                                                                        shop</button>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="gifBoxTwo">
+                                                                <img
+                                                                    src="../../assets/css/images/giftimages/product_12hover.png"
+                                                                    alt="Mlogo">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiperCont">
+                                                    <div class="mTexLogo">
+                                                        <img
+                                                            src="../../assets/css/images/giftimages/dyo_badge-en_1.png"
+                                                            alt="Mlogo">
+                                                    </div>
+                                                    <div class="pumpkinCont">
+                                                        <div
+                                                            class="imageWrapper">
+                                                            <div class="gifBox">
+                                                                <div>
+                                                                    <img
+                                                                        src="../../assets/css/images/giftimages/product_13.png"
+                                                                        alt="Mlogo">
+                                                                </div>
+                                                                <div
+                                                                    class="giftBoxText">
+                                                                    <div
+                                                                        class="rating">
+                                                                        <i
+                                                                            class="fa-solid fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid fa-star"></i>
+                                                                        <i
+                                                                            class="fa-solid fa-star"></i>
+                                                                        <span>(22)</span>
+                                                                    </div>
+                                                                    <a
+                                                                        href="#">Let's Celebrate Gift Box</a>
+                                                                    <span>$39.99</span>
+                                                                    <button
+                                                                        class="btn">quick
+                                                                        shop</button>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="gifBoxTwo">
+                                                                <img
+                                                                    src="../../assets/css/images/giftimages/product_13hover.png"
+                                                                    alt="Mlogo">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="swiperContAll">
+                                        <div class="swiperCont">
+                                            <div class="card_2">
+                                                <h2>new! add a <br> second <br> image</h2>
+                                                <span>one photo isn't always <br> enough. now you can <br> personalize your candy with <br> up to two images.</span> <br>
+                                                <a href="#">start your creation</a>
+                                                <img
+                                                    src="../../assets/css/images/giftimages/product_10.png"
+                                                    alt>
+                                            </div>
+                                        </div>
     
-</body>
+                                    </div>
+
+            </section>
+        </main>
+            <footer></footer>
+    </body>
 </html>
