@@ -1,11 +1,11 @@
-@font-face {
+/* @font-face {
   font-family: together;
   src: url(./AllTogetherSans-Regular.woff2);
 }
 * {
   font-family: together;
   box-sizing: border-box;
-}
+} */
 
 /* hero */
 .hero {
