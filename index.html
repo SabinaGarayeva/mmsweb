@@ -16,6 +16,10 @@
       type="image/x-icon"
       href="./assets/css/images/favicon.ico"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/layout.css" />
     <link rel="stylesheet" href="./assets/css/global.css" />
@@ -32,7 +36,40 @@
           </p>
         </div>
         <div class="topbarSecond">
-          <swiper-container class="mySwiper" navigation="true">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="topbarSlide1">
+                  <p>
+                    <strong
+                      >15% Off
+                      <a href="./pages//halloween/halloween.html"
+                        >Halloween!</a
+                      ></strong
+                    >
+                    Use Code
+                    <a href="https://www.mms.com/en-us/offer-details">
+                      <strong>HAUNT</strong></a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="topbarSlide2">
+                  <p>
+                    <strong> Free Standard Shipping On Orders $49+!</strong
+                    ><a href="https://www.mms.com/en-us/offer-details"
+                      >Detail</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <!-- <swiper-container class="mySwiper" navigation="true">
             <swiper-slide
               ><div class="topbarSlide1">
                 <p>
@@ -57,7 +94,7 @@
                 </p>
               </div></swiper-slide
             >
-          </swiper-container>
+          </swiper-container> -->
         </div>
       </div>
 
@@ -977,7 +1014,7 @@
               <span class="designYour">design your own</span>
             </a>
             <a class="scaryLinkAll scaryLinkShop" href="#">
-              <span class="designYour designYourSpan">shop halloween</span>
+              <span class="designYour designYourSpan">shop bulky candy</span>
             </a>
           </div>
 
@@ -1109,115 +1146,189 @@
       </div>
     </section> -->
 
-<!-- THREE CARDS SECTION START -->
+    <!-- THREE CARDS SECTION START -->
     <section class="threeSection">
       <div class="container">
         <div class="colorfulCardContainer">
           <div class="purpleCard">
             <div class="purpleImg">
-              <img width="100%" src="../../assets/css/images/colorfulM.webp"
-                alt="colorfulM">
+              <img
+                width="100%"
+                src="../../assets/css/images/colorfulM.webp"
+                alt="colorfulM"
+              />
             </div>
             <div class="colorCardAbsolute">
-              <img src="../../assets/css/images/kurukafa.webp" alt>
+              <img src="../../assets/css/images/kurukafa.webp" alt />
             </div>
             <div class="colorCardText">
               <p class="colorTextOne">Day of the Dead blend</p>
               <p class="colorTextTwo">ghouls just wanna have fun</p>
             </div>
             <div class="colorCardArrow">
-              <a class="colorTextOne line lineColorA" style="color: #ffffff;"
-                href>shop now<span><i class="fa-solid fa-arrow-right"
-                    style="color: #ffffff;"></i></span></a>
-
+              <a
+                class="colorTextOne line lineColorA"
+                style="color: #ffffff"
+                href
+                >shop now<span
+                  ><i
+                    class="fa-solid fa-arrow-right"
+                    style="color: #ffffff"
+                  ></i></span
+              ></a>
             </div>
           </div>
           <div class="yellowCard">
             <div class="yellowImg">
-              <img width="100%" src="../../assets/css/images/greenCardm.webp"
-                alt>
+              <img
+                width="100%"
+                src="../../assets/css/images/greenCardm.webp"
+                alt
+              />
             </div>
             <div class="colorCardAbsolute">
-              <img src="../../assets/css/images/confet.webp" alt>
+              <img src="../../assets/css/images/confet.webp" alt />
             </div>
             <div class="colorCardText">
               <p class="colorTextOne">ghoulishly delicious</p>
               <p class="colorTextTwo">the best treat in the bag</p>
             </div>
             <div class="colorCardArrow">
-              <a class="colorTextOne line lineColorB" style="color: #5a1f06;"
-                href>
-                shop party favors<span><i class="fa-solid fa-arrow-right"
-                    style="color: #5a1f06;"></i></span></a>
-
+              <a
+                class="colorTextOne line lineColorB"
+                style="color: #5a1f06"
+                href
+              >
+                shop party favors<span
+                  ><i
+                    class="fa-solid fa-arrow-right"
+                    style="color: #5a1f06"
+                  ></i></span
+              ></a>
             </div>
           </div>
           <div class="orangeCard">
             <div class="orangeImg">
-              <img width="100%" src="../../assets/css/images/orangeimgm.webp"
-                alt>
+              <img
+                width="100%"
+                src="../../assets/css/images/orangeimgm.webp"
+                alt
+              />
             </div>
             <div class="colorCardAbsolute">
-              <img src="../../assets/css/images/yarasa.webp" alt>
+              <img src="../../assets/css/images/yarasa.webp" alt />
             </div>
             <div class="colorCardText">
               <p class="colorTextOne">scary fun</p>
-              <p class="colorTextTwo">personalized candy for that epic
-                halloween party</p>
+              <p class="colorTextTwo">
+                personalized candy for that epic halloween party
+              </p>
             </div>
             <div class="colorCardArrowB">
-              <a class="colorTextOne line lineColorC" style="color: #000000;"
-                href>
-                design your own<span><i class="fa-solid fa-arrow-right"
-                    style="color: #000000;"></i></span></a>
-
+              <a
+                class="colorTextOne line lineColorC"
+                style="color: #000000"
+                href
+              >
+                design your own<span
+                  ><i
+                    class="fa-solid fa-arrow-right"
+                    style="color: #000000"
+                  ></i></span
+              ></a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-<!-- THREE CARDS SECTION END -->
+    <!-- THREE CARDS SECTION END -->
 
+    <!-- TRICK AND TREAT SECTION START -->
 
     <section class="trickAndTreat">
-      <div style="padding-top: 100px;">
+      <div style="padding-top: 100px">
         <div class="topMuchText">
           <span class="textSpan">trick or treat</span>
-          <span style="color: #0e74e1;" class="andSpan">&</span>
+          <span style="color: #0e74e1" class="andSpan">&</span>
           <span class="textSpan">ghouls</span>
-          <span style="color: #00a832;" class="andSpan">&</span>
+          <span style="color: #00a832" class="andSpan">&</span>
           <span class="textSpan">bats</span>
-          <span style="color: #d70100;" class="andSpan">&</span>
+          <span style="color: #d70100" class="andSpan">&</span>
           <span class="textSpan">ghosts</span>
-          <span style="color: #5a1f06;" class="andSpan">&</span>
-          <span class="textSpan">trick or treat</span>
-          <span style="color: #fa6400;" class="andSpan">&</span>
+          <span style="color: #5a1f06" class="andSpan">&</span>
           <span class="textSpan">trick</span>
-
-         
-
         </div>
-        <div style="margin-top: 20px;">
-          <span style="color: #00a832;" class="andSpan">&</span>
+        <div style="margin-top: 20px">
+          <span style="color: #00a832" class="andSpan">&</span>
           <span class="textSpan">zombies</span>
-          <span style="color: #d70100;" class="andSpan">&</span>
+          <span style="color: #d70100" class="andSpan">&</span>
           <span class="textSpan">pumpkins</span>
-          <span style="color: #5a1f06;" class="andSpan">&</span>
+          <span style="color: #5a1f06" class="andSpan">&</span>
           <span class="textSpan">mummies</span>
-          <span style="color: #fa6400;" class="andSpan">&</span>
+          <span style="color: #fa6400" class="andSpan">&</span>
           <span class="textSpan">monsters</span>
-          <span style="color: #0e74e1;" class="andSpan">&</span>
-          <span class="textSpan">zombies</span>
-         
-       
-
         </div>
       </div>
-
-      <!-- much text section end -->
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <!-- TRICK AND TREAT SECTION END -->
+
+    <!-- OUR MISSION START -->
+
+    <section class="ourMission">
+      <div class="yellowBack">
+        <div class="missionContent">
+          <h2>Our Mission</h2>
+          <p>
+            M&M’S creates a world where everyone feels they belong through the
+            power of fun to include everyone
+          </p>
+          <a class="scaryLinkAll scaryLinkShop learnMoreAbout" href="#">
+            <span>learn more about our missin</span>
+          </a>
+
+          <div>
+            <img
+              src="https://cdn.media.amplience.net/i/marsmmsprod/mms-mission-characters-desktop-2?%24i%24=&w=1224&fmt=auto&qlt=default"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR MISSION END -->
+
+    <!-- EVERY MOMENT SECTION START -->
+
+    <section class="everyMoment">
+      <div class="everyMoment">
+        <div class="everyMomentLeft">
+          <img
+            src="https://cdn.media.amplience.net/i/marsmmsprod/Wedding-2022-Cohley-08?%24i%24=&w=496&h=595&sm=c&fmt=auto&qlt=default"
+            alt=""
+          />
+        </div>
+        <div class="everyMomentRight"></div>
+      </div>
+    </section>
+
+    <!-- EVERY MOMENT SECTION END-->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
   </body>
 </html>

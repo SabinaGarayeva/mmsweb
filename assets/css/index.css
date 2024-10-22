@@ -976,27 +976,90 @@ nav p {
 
 /* Colorful Card end */
 
-
-
 /* much text section start */
 
-.textSpan{
+.textSpan {
   font-size: 50px;
-  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;  
+  /* font-family: "AllTogetherSerif", "Times New Roman", Times, serif;   */
   font-weight: 400;
   color: #5a1f06;
 }
 
-.andSpan{
+.andSpan {
   font-size: 50px;
-  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;  
+  /* font-family: "AllTogetherSerif", "Times New Roman", Times, serif;   */
   font-weight: 600;
   margin-left: 8px;
   margin-right: 8px;
 }
 
 .trickAndTreat {
-  background-color: #ffd0b1
+  background-color: #ffd0b1;
 }
 
 /* much text section end */
+
+/* OUR MISSION START */
+
+.ourMission {
+  background-color: #ffd0b1;
+  padding-top: 100px;
+}
+
+.yellowBack {
+  width: 100%;
+  background-color: #ffd200;
+  border-radius: 300px 300px 0 0;
+}
+.missionContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionContent h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #5a1f06;
+  padding-top: 100px;
+}
+
+.missionContent p {
+  max-width: 65%;
+  font-size: 30px;
+  color: #040607;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.learnMoreAbout {
+  width: 400px;
+  padding: 20px 25px;
+  background-color: #fff;
+  color: #5a1f06;
+  border: none !important;
+  margin-bottom: 50px;
+}
+
+.learnMoreAbout:hover::before {
+  background-color: #5a1f06;
+  transition: bottom 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    left 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    opacity 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+/* OUR MISSION END */
+
+.swiper-button-next svg,
+.swiper-button-prev svg {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+/* EVERY MOMENT SECTION  START */
+.everyMomentLeft img {
+  border: 0.25rem solid #ffd8fc;
+  border-radius: 999rem 999rem 0 0;
+}
+/* EVERY MOMENT SECTION  END */
