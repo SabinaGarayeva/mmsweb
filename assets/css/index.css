@@ -1,3 +1,5 @@
+/* TOPBAR START */
+
 .topbarFirst {
   background-color: #8aceff;
   width: 100%;
@@ -63,11 +65,695 @@
   width: 0;
 }
 
+/* TOPBAR END */
+
+/* NAVBAR  START */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px 0 30px;
+}
+
+.navbarLeft {
+  display: flex;
+  gap: 30px;
+}
+
+.navbarRight {
+  display: flex;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+nav p {
+  color: #5a1f06;
+}
+
 .logoImg {
-  width: 100px;
+  width: 110px;
   height: auto;
 }
 
 .navbarBtns a {
-  color: #592411
+  color: #592411;
 }
+
+.navbarIcons {
+  display: flex;
+}
+
+.navItem {
+  height: 100%;
+}
+
+.navItem svg {
+  width: 50px;
+}
+
+.navItem p {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.navItem1:hover {
+  border-bottom: 3px solid #d70100;
+}
+
+.navItem1:hover .bag-body {
+  fill: #ffd200;
+}
+
+.navItem1:hover .red {
+  fill: #d70100;
+}
+
+.navItem2:hover {
+  border-bottom: 3px solid #fa6400;
+}
+
+.navItem2:hover .konfetti {
+  fill: #fa6400;
+}
+
+.navItem2:hover .konfetti2 {
+  fill: #fa6400;
+}
+
+.navItem2:hover .celebrate-body {
+  fill: #fa6400;
+}
+
+.navItem3:hover {
+  border-bottom: 3px solid #00a832;
+}
+
+.navItem3:hover .explore-body {
+  fill: #00a832;
+}
+
+.navItem4:hover {
+  border-bottom: 3px solid #0e74e1;
+}
+
+.navItem4:hover .business-body {
+  fill: #0e74e1;
+}
+
+.navbarBtns {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbarBtns a {
+  display: flex;
+  background-color: #f3f6fa;
+  gap: 5px;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+}
+
+.navbarBtns a:hover {
+  background-color: #5a1f06;
+  color: #ffffff;
+}
+
+.css-84d4bu {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: linear-gradient(
+      to right,
+      #da418c,
+      #d70100,
+      #ff6701,
+      #ffd200,
+      #00b035,
+      #0f79eb,
+      #be9fff,
+      #da408f
+    ),
+    white;
+  background-clip: border-box;
+  background-origin: border-box;
+}
+
+.toolsBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.toolsBtn:hover {
+  background-color: yellow;
+  border: 10px solid yellow;
+  border-radius: 100%;
+}
+
+.toolsBtn img {
+  width: 25px;
+  border: 3px solid #5a1f06;
+  border-radius: 50%;
+}
+
+.navbarTools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile i {
+  border: 3px solid #5a1f06;
+  padding: 2px;
+  border-radius: 100%;
+  margin-top: -3px;
+}
+
+.fa-bag-shopping {
+  margin-top: -3px;
+}
+
+.navbarBtnLink2 {
+  margin-right: 20px;
+}
+
+/* NAVBAR  END */
+
+/* NAVBAR DROPDOWN START  */
+
+.dropdown {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.dropdown-content {
+  width: 100%;
+  left: 0;
+  top: 100%;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.navItem:hover .dropdown-content {
+  display: block;
+}
+
+.gifts1Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.shopAll {
+  color: #5a1f06;
+  font-weight: bold;
+}
+
+.shopAllBox {
+  border-bottom: 2px solid yellow;
+}
+
+.shopAllBox:hover {
+  border-bottom: none;
+}
+
+.giftsForOccasion {
+  font-size: 24px;
+  color: #5a1f06;
+  font-weight: bold;
+  width: 80%;
+  text-align: start;
+}
+
+.dropContBox {
+  width: 100%;
+  display: flex;
+}
+.chocolate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 100px;
+}
+
+.chocolate a {
+  color: #5a1f06;
+}
+
+.chocolate ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.shopWeddingCard {
+  background-color: #83aef2;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.shopWeddingCard p {
+  font-size: 24px;
+  align-items: flex-start;
+}
+
+.shopWeddingCardImgBox {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.shopWeddingCardImgBox img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.shopWeddingCardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.shopWeddingCardText a {
+  color: #5a1f06;
+  border-bottom: 3px solid #5a1f06;
+}
+
+.shopWeddingCardText a:hover {
+  border-bottom: none;
+}
+.shopWeddingCardText p {
+  margin-top: 20px;
+}
+
+.loveIsSweet {
+  margin-top: -20px;
+}
+
+.chocolateTitle {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.chocolate a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.chocolateTitle:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.boldLinks {
+  font-weight: bold;
+}
+
+.blackColorLinks {
+  color: black !important;
+}
+
+.celebrate1box {
+  text-align: start;
+}
+
+.celebrate1box h3 {
+  font-size: 24px;
+  color: #5a1f06;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 60%;
+  /* text-align: start; */
+}
+
+.celebrate1box p {
+  color: #000;
+  width: 80%;
+  font-weight: 400 !important;
+}
+
+.allOcasions {
+  color: #5a1f06;
+  font-weight: bold;
+}
+
+.allOcasionsBox {
+  width: 23% !important;
+  border-bottom: 2px solid yellow;
+}
+
+.allOcasionsBox:hover {
+  border-bottom: none;
+}
+
+.celebrateCard {
+  background-color: #5a1f06;
+  display: flex;
+  /* justify-content: center; */
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.celebrateCard p {
+  font-size: 20px;
+  /* align-items: flex-start; */
+}
+
+.celebrateCardImgBox {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.celebrateCardImgBox img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.celebrateCardText {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.celebrateCardText a {
+  color: #fff;
+  font-size: 12px;
+  border-bottom: 3px solid yellow;
+}
+
+.celebrateCardText a:hover {
+  border-bottom: none;
+}
+.celebrateCardText p {
+  color: #fff;
+}
+
+.yourFavorites {
+  margin-top: -20px;
+}
+
+.exploreCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exploreCard {
+  width: 18%;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exploreCard img {
+  width: 100%;
+  border-radius: 100%;
+}
+.exploreCard p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.exploreCard1 {
+  background-color: yellow;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.exploreCard1 p {
+  color: #000;
+}
+
+.exploreCard2 {
+  background-color: red;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard2 p {
+  color: #fff;
+}
+
+.exploreCard3 {
+  background-color: blue;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard3 p {
+  color: #fff;
+}
+
+.exploreCard4 {
+  background-color: red;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard4 p {
+  color: #fff;
+}
+
+.exploreCard5 {
+  background-color: orange;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard5 p {
+  color: #000;
+}
+
+.exploreOurWorldBox {
+  width: 39% !important;
+  border-bottom: 2px solid yellow;
+}
+
+.exploreOurWorldBox:hover {
+  border-bottom: none;
+}
+
+.businessCard {
+  background-color: #83aef2;
+  display: flex;
+  max-width: 400px;
+  padding: 20px;
+  align-items: center;
+  border-radius: 20px;
+  align-self: flex-start;
+  justify-self: flex-end;
+  margin-left: 70px;
+}
+
+.businessCardImgBox img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.businessCardTitle h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.businessCardTitle a {
+  color: #5a1f06;
+  border-bottom: 3px solid #5a1f06;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.businessCardTitle a:hover {
+  border-bottom: none;
+}
+
+.businessBox {
+  border-bottom: 3px solid yellow;
+  width: 38% !important;
+}
+
+/* NAVBAR DROPDOWN END*/
+
+/* HERO START */
+
+.hero {
+  width: 100%;
+  /* height: 100vh; */
+  color: #5a1f06;
+  background-color: #ffd0b1;
+}
+
+.heroLeft {
+  font-weight: 700;
+}
+
+.heroLeft h2 {
+  font-size: 3.5rem;
+  line-height: 1.1428571428571428;
+  margin-bottom: 30px;
+}
+
+.heroLeftButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.heroLeftButtonsFirst {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 0.125rem solid #5a1f06;
+  color: #5a1f06;
+  gap: 15px;
+  font-weight: bold;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.heroLeftButtonsSecond {
+  background: transparent;
+  border: 0.125rem solid #5a1f06;
+  color: #5a1f06;
+  font-weight: bold;
+  padding: 15px 35px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.heroDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.heroRight img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* HERO END */
+
+/* CARDS START */
+
+.cards {
+  background-color: #ffd0b1;
+}
+
+.cardDiv {
+  display: flex;
+  gap: 20px;
+  padding: 20px 40px;
+}
+
+.cardsFirst {
+  background: #53d4c0;
+  border-radius: inherit;
+  color: #040607;
+  height: 100%;
+  padding: 1.5rem 1.5rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cardsFirst p {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.2857142857142858;
+}
+
+.cardsFirst h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.cardsFirst a {
+  color: #5a1f06;
+  font-weight: bold;
+}
+
+.cardsSecond {
+  background: #00403e;
+  border-radius: inherit;
+  color: #fff;
+  height: 100%;
+  padding: 1.5rem 1.5rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cardsSecond p {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.2857142857142858;
+}
+
+.cardsSecond h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.cardsSecond a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.cardsThird {
+  background: #0e74e1;
+  border-radius: inherit;
+  color: #fff;
+  height: 100%;
+  padding: 1.5rem 1.5rem 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cardsThird p {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.2857142857142858;
+}
+
+.cardsThird h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+}
+
+.cardsThird a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* CARDS END */
