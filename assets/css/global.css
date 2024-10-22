@@ -20,17 +20,17 @@ body {
 }
 
 @font-face {
-  font-family: AllTogetherSans-CnBold;
+  font-family: AllTogetherSerif-CnBold;
   src: url(../fonts/AllTogetherSerif-CnBold.woff2);
 }
 
 @font-face {
-  font-family: AllTogetherSans-CnLight;
+  font-family: AllTogetherSerif-CnLight;
   src: url(../fonts/AllTogetherSerif-CnLight.woff2);
 }
 
 @font-face {
-  font-family: AllTogetherSans-WideBlk;
+  font-family: AllTogetherSerif-WideBlk;
   src: url(../fonts/AllTogetherSerif-WideBlk.woff2);
 }
 
