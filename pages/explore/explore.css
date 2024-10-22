@@ -1,0 +1,429 @@
+/* @font-face {
+  font-family: together;
+  src: url(./AllTogetherSans-Regular.woff2);
+}
+* {
+  font-family: together;
+  box-sizing: border-box;
+} */
+
+/* hero */
+.hero {
+  background-image: url(../../assets/img/explore/M&M_Global_Purpose_Illustration_Closer_RGB.webp);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+/* Description */
+.description {
+  background-color: #5a1f06;
+  color: #fff;
+  width: 100%;
+}
+
+.description h2 {
+  font-size: 18px;
+  line-height: 1.3333333333333333;
+  margin-top: 19%;
+  margin-bottom: 25px;
+}
+
+.description p {
+  font-weight: 300;
+  line-height: 1.625;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* video */
+.video {
+  background-color: #5a1f06;
+  height: 100%;
+}
+
+.video .videoPlayer {
+  width: 90%;
+  margin: 0 auto;
+}
+.video video {
+  width: 100%;
+  margin: 7% 0;
+  border-radius: 0.625rem;
+}
+
+/* fund */
+.fund .fundPart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #040607;
+  margin: 6% 0;
+}
+
+.fund .fundImg img {
+  width: 90%;
+}
+
+.fund .fundDesc {
+  width: 46%;
+}
+
+.fund .fundDesc span {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+}
+
+.fund .fundDesc h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #5a1f06;
+  margin-bottom: 15px;
+}
+
+.fund .fundDesc p {
+  line-height: 1.625;
+  font-weight: 300;
+}
+
+/* Contributors */
+.contributors img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contributors p {
+  color: #5a1f06;
+  font-size: 1.4rem;
+  width: 80%;
+  margin: 3% auto;
+}
+
+.contributors .textBottom {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/* History */
+.historyContent {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.history span {
+  font-size: 1.25rem;
+}
+
+.history h2 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 2%;
+}
+
+.history p {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 2%;
+}
+
+.history .topImg {
+  line-height: 0;
+}
+
+.history .topImg img {
+  width: 100%;
+}
+
+/* blue top */
+.blueTop {
+  background-color: #0e74e1;
+  color: #fff;
+  text-align: end;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.blueTop .historyDesc {
+  text-align: right;
+  width: 30%;
+  position: absolute;
+  left: 7%;
+}
+
+.blueTop .historyImg {
+  width: 33%;
+  position: absolute;
+  right: 11%;
+}
+
+.blueTop .historyImg img {
+  width: 80%;
+}
+
+.blueTop .historyCenter img {
+  width: 12%;
+  position: absolute;
+  left: 44%;
+  top: 29%;
+}
+
+/* yellow */
+.yellow {
+  background-color: #ffd200;
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: row;
+}
+
+.yellow .historyDesc {
+  color: #5a1f06;
+  width: 30%;
+  text-align: left;
+  position: absolute;
+  right: 7%;
+}
+
+.yellow .historyImg {
+  width: 32%;
+  position: absolute;
+  left: 8%;
+}
+
+.yellow .historyImg img {
+  width: 90%;
+}
+
+.yellow .historyCenter img {
+  width: 12%;
+  position: absolute;
+  left: 44%;
+  top: -20%;
+}
+
+/* orange */
+.orange {
+  background-color: #fa6400;
+  color: #fff;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: row;
+}
+
+.orange .historyDesc {
+  width: 30%;
+  text-align: right;
+  position: absolute;
+  left: 7%;
+}
+
+.orange .historyDesc img {
+  width: 85%;
+  margin-right: 20px;
+  margin-top: 5px;
+}
+
+.orange .historyImg {
+  width: 33%;
+  position: absolute;
+  right: 3%;
+}
+
+.orange .historyImg img {
+  width: 70%;
+}
+
+.orange .historyCenter img {
+  width: 12%;
+  position: absolute;
+  left: 44%;
+  top: -5%;
+}
+
+/* green */
+.green {
+  background-color: #00b035;
+  color: #fff;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.green .historyDesc {
+  width: 30%;
+  text-align: left;
+  position: absolute;
+  right: 7%;
+}
+
+.green .historyImg {
+  width: 33%;
+  position: absolute;
+  left: 8%;
+}
+
+.green .historyImg img {
+  width: 90%;
+}
+
+.green .historyCenter img {
+  width: 12%;
+  position: absolute;
+  left: 44%;
+  top: -10%;
+}
+
+/* blue */
+.blue {
+  background-color: #0e74e1;
+  color: #fff;
+  height: 60vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.blue .historyDesc {
+  width: 30%;
+  text-align: right;
+  position: absolute;
+  left: 7%;
+}
+
+.blue .historyImg {
+  width: 30%;
+  position: absolute;
+  right: 7%;
+}
+
+.blue .historyImg img {
+  width: 90%;
+}
+
+.blue .historyCenter img {
+  width: 12%;
+  position: absolute;
+  left: 44%;
+  top: -10%;
+}
+
+/* bottom */
+.bottom {
+  background-color: #5a1f06;
+  color: #fff;
+  width: 100%;
+}
+
+.bottom .bottomContent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bottom .bottomContent img {
+  width: 15%;
+}
+
+.bottom p {
+  padding: 1% 15% 3%;
+}
+
+.bottom .bottomVideo {
+  width: 80%;
+  margin: 3% 10%;
+}
+
+.bottom .bottomVideo .video {
+  width: 100%;
+  height: 480px;
+}
+
+/* much text section start */
+.textBanner {
+  padding: 50px 5px 70px;
+}
+
+.textSpan {
+  font-size: 50px;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 400;
+  color: #5a1f06;
+}
+
+.andSpan {
+  font-size: 50px;
+  font-family: "AllTogetherSerif", "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* much text section end */
+
+/* explore */
+.explore {
+  background-color: #5a1f06;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5%;
+}
+
+.explore .exploreItem {
+  text-align: center;
+}
+
+.explore .exploreItem h2 {
+  font-size: 24px;
+
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem;
+}
+
+.explore .exploreItem p {
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.7142857142857142;
+  letter-spacing: 0;
+  margin-bottom: 1rem;
+}
+
+.explore .exploreItem a {
+  color: #fff;
+  font-size: 0.875rem;
+  padding-bottom: 0.375rem;
+  letter-spacing: 0.02em;
+  position: relative;
+}
+
+.explore .exploreItem a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.125rem;
+  background: #ffd200;
+  transform: scaleX(1);
+  transform-origin: 100% 50%;
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.explore .exploreItem a:hover::after {
+  transform: scaleX(0);
+}
