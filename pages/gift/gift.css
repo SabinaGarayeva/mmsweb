@@ -469,3 +469,221 @@
   letter-spacing: 0.02em;
   z-index: 10;
 }
+
+
+
+/* <!--FOOTER START--> */
+
+footer {
+  background-color: #f3f6fa;
+  position: relative;
+}
+.footerImg {
+  background-color: #ffd200;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerImg::before {
+  background: #f3f6fa;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  content: "";
+  left: -42%;
+  top: 24%;
+  position: absolute;
+  width: 185%;
+  z-index: 1;
+  height: 77%;
+}
+
+.footerImg img {
+  padding-top: 40px;
+  z-index: 1;
+}
+.svgIcon {
+  background-color: white;
+  border: 0px solid;
+  border-radius: 70px;
+  width: 200px;
+  height: 100px;
+}
+
+.locaIcon {
+  width: 190px;
+  height: 190px;
+}
+.contactPagesPB {
+  display: flex;
+  gap: 50px;
+  z-index: 1;
+  border-bottom: 1px solid;
+  padding-top: 15px;
+  height: 170px;
+  border-color: rgb(110, 166, 168);
+}
+.contactPagesPB h3 {
+  font-weight: 800;
+}
+.contactPagesPB a {
+  color: #5a1f06;
+  font-weight: 600;
+  border-bottom: 1px solid;
+  border-color: #ffd200;
+}
+.contactPagesPB a:hover {
+  border: none;
+}
+.svgIconItems {
+  display: flex;
+  gap: 25px;
+}
+.footerSecond {
+  z-index: 1;
+  border: 1px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: rgb(110, 166, 168);
+}
+.iconSvg {
+  color: #5a1f06;
+  width: 30px;
+  height: 50px;
+}
+.footerSecond {
+  display: flex;
+  padding-top: 15px;
+  gap: 70px;
+  padding-bottom: 55px;
+}
+.dd {
+  border-bottom: 1px solid #ffd200;
+}
+.dd:hover {
+  border: none;
+}
+.secondOne {
+  width: 380px;
+  height: 30%;
+  margin-top: 50px;
+}
+.secondOne p {
+  font-size: 13px;
+}
+.secondOne h4 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #5a1f06;
+}
+.secondOne input {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: #f3f6fa;
+  height: 60px;
+  width: 300px;
+  font-size: 21px;
+}
+.yellowButton {
+  color: #5a1f06;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffd200;
+  padding: 20px 90px;
+  border: 1px solid;
+  border-color: #ffd200;
+  border-radius: 30px;
+}
+.yellowButton:hover {
+  background-color: #ffd200;
+  box-shadow: -6px 6px #5a1f06;
+  border-color: #ffd200;
+}
+.secondOne a,
+i {
+  color: #5a1f06;
+}
+.secondTwo {
+  padding-top: 55px;
+}
+.secondTwo h4 {
+  color: #5a1f06;
+  font-size: 20px;
+}
+.secondTwo a {
+  color: black;
+  font-size: 16px;
+}
+.secondTwo a:hover {
+  border-bottom: 1px solid;
+  border-color: #ffd200;
+}
+.secondTree a:hover {
+  border-bottom: 1px solid;
+  border-color: #ffd200;
+}
+.secondTree {
+  padding-top: 55px;
+}
+.secondTree h4 {
+  color: #5a1f06;
+  font-size: 20px;
+}
+.secondTree a {
+  color: black;
+  font-size: 16px;
+}
+.secondFour {
+  padding-top: 55px;
+}
+.secondFour h4 {
+  color: #5a1f06;
+  font-size: 20px;
+}
+.secondFour i {
+  font-size: 40px;
+  padding: 20px;
+  align-items: center;
+}
+.secondFour i:hover {
+  background-color: #ffd200;
+  border: 0px solid;
+  border-radius: 50px;
+}
+.footerThirsty img {
+  width: 100px;
+  height: 100px;
+}
+.footerThirsty a {
+  color: black;
+}
+.footerThirsty {
+  z-index: 1;
+  display: flex;
+  gap: 17%;
+}
+.fullOne {
+  display: flex;
+}
+.fullOne a {
+  display: flex;
+}
+.one i {
+  font-size: 30px;
+}
+.full {
+  display: flex;
+}
+.two {
+  padding-top: 30%;
+  width: 50px;
+  height: 50px;
+}
+.barGnrl {
+  display: flex;
+}
+
+/* <!--FOOTER END--> */
