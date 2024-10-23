@@ -6,6 +6,610 @@
   word-break: break-word;
 }
 
+/* TOPBAR START */
+
+.topbarFirst {
+  background-color: #8aceff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.topbarSlide1 {
+  background-color: #fa6400;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.topbarSlide1 a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+}
+
+.topbarSlide1 a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s ease;
+  width: 100%;
+}
+
+.topbarSlide1 a:hover::after {
+  width: 0;
+}
+
+.topbarSlide2 {
+  background-color: #ffd200;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.topbarSlide2 a {
+  color: #5a1f06;
+  text-decoration: none;
+  position: relative;
+}
+
+.topbarSlide2 a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #5a1f06;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s ease;
+  width: 100%;
+}
+
+.topbarSlide2 a:hover::after {
+  width: 0;
+}
+
+/* TOPBAR END */
+
+/* NAVBAR  START */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 20px 0 30px;
+}
+
+.navbarLeft {
+  display: flex;
+  gap: 30px;
+}
+
+.navbarRight {
+  display: flex;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+nav p {
+  color: #5a1f06;
+}
+
+.logoImg {
+  width: 110px;
+  height: auto;
+}
+
+.navbarBtns a {
+  color: #592411;
+}
+
+.navbarIcons {
+  display: flex;
+}
+
+.navItem {
+  height: 100%;
+}
+
+.navItem svg {
+  width: 50px;
+}
+
+.navItem p {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.navItem1:hover {
+  border-bottom: 3px solid #d70100;
+}
+
+.navItem1:hover .bag-body {
+  fill: #ffd200;
+}
+
+.navItem1:hover .red {
+  fill: #d70100;
+}
+
+.navItem2:hover {
+  border-bottom: 3px solid #fa6400;
+}
+
+.navItem2:hover .konfetti {
+  fill: #fa6400;
+}
+
+.navItem2:hover .konfetti2 {
+  fill: #fa6400;
+}
+
+.navItem2:hover .celebrate-body {
+  fill: #fa6400;
+}
+
+.navItem3:hover {
+  border-bottom: 3px solid #00a832;
+}
+
+.navItem3:hover .explore-body {
+  fill: #00a832;
+}
+
+.navItem4:hover {
+  border-bottom: 3px solid #0e74e1;
+}
+
+.navItem4:hover .business-body {
+  fill: #0e74e1;
+}
+
+.navbarBtns {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbarBtns a {
+  display: flex;
+  background-color: #f3f6fa;
+  gap: 5px;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+}
+
+.navbarBtns a:hover {
+  background-color: #5a1f06;
+  color: #ffffff;
+}
+
+.css-84d4bu {
+  border-radius: 50%;
+  border: 1px solid transparent;
+  background: linear-gradient(
+      to right,
+      #da418c,
+      #d70100,
+      #ff6701,
+      #ffd200,
+      #00b035,
+      #0f79eb,
+      #be9fff,
+      #da408f
+    ),
+    white;
+  background-clip: border-box;
+  background-origin: border-box;
+}
+
+.toolsBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.toolsBtn:hover {
+  background-color: yellow;
+  border: 10px solid yellow;
+  border-radius: 100%;
+}
+
+.toolsBtn img {
+  width: 25px;
+  border: 3px solid #5a1f06;
+  border-radius: 50%;
+}
+
+.navbarTools {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile i {
+  border: 3px solid #5a1f06;
+  padding: 2px;
+  border-radius: 100%;
+  margin-top: -3px;
+}
+
+.fa-bag-shopping {
+  margin-top: -3px;
+}
+
+.navbarBtnLink2 {
+  margin-right: 20px;
+}
+
+/* NAVBAR  END */
+
+/* NAVBAR DROPDOWN START  */
+
+.dropdown {
+  position: relative;
+  /* display: inline-block; */
+}
+
+.dropdown-content {
+  width: 100%;
+  left: 0;
+  top: 100%;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.navItem:hover .dropdown-content {
+  display: block;
+}
+
+.gifts1Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.shopAll {
+  color: #5a1f06;
+  font-weight: bold;
+}
+
+.shopAllBox {
+  border-bottom: 2px solid yellow;
+}
+
+.shopAllBox:hover {
+  border-bottom: none;
+}
+
+.giftsForOccasion {
+  font-size: 24px;
+  color: #5a1f06;
+  font-weight: bold;
+  width: 80%;
+  text-align: start;
+}
+
+.dropContBox {
+  width: 100%;
+  display: flex;
+}
+.chocolate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 100px;
+}
+
+.chocolate a {
+  color: #5a1f06;
+}
+
+.chocolate ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.shopWeddingCard {
+  background-color: #83aef2;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.shopWeddingCard p {
+  font-size: 24px;
+  align-items: flex-start;
+}
+
+.shopWeddingCardImgBox {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.shopWeddingCardImgBox img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.shopWeddingCardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+.shopWeddingCardText a {
+  color: #5a1f06;
+  border-bottom: 3px solid #5a1f06;
+}
+
+.shopWeddingCardText a:hover {
+  border-bottom: none;
+}
+.shopWeddingCardText p {
+  margin-top: 20px;
+}
+
+.loveIsSweet {
+  margin-top: -20px;
+}
+
+.chocolateTitle {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.chocolate a:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.chocolateTitle:hover {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.boldLinks {
+  font-weight: bold;
+}
+
+.blackColorLinks {
+  color: black !important;
+}
+
+.celebrate1box {
+  text-align: start;
+}
+
+.celebrate1box h3 {
+  font-size: 24px;
+  color: #5a1f06;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 60%;
+  /* text-align: start; */
+}
+
+.celebrate1box p {
+  color: #000;
+  width: 80%;
+  font-weight: 400 !important;
+}
+
+.allOcasions {
+  color: #5a1f06;
+  font-weight: bold;
+}
+
+.allOcasionsBox {
+  width: 23% !important;
+  border-bottom: 2px solid yellow;
+}
+
+.allOcasionsBox:hover {
+  border-bottom: none;
+}
+
+.celebrateCard {
+  background-color: #5a1f06;
+  display: flex;
+  /* justify-content: center; */
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.celebrateCard p {
+  font-size: 20px;
+  /* align-items: flex-start; */
+}
+
+.celebrateCardImgBox {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.celebrateCardImgBox img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.celebrateCardText {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.celebrateCardText a {
+  color: #fff;
+  font-size: 12px;
+  border-bottom: 3px solid yellow;
+}
+
+.celebrateCardText a:hover {
+  border-bottom: none;
+}
+.celebrateCardText p {
+  color: #fff;
+}
+
+.yourFavorites {
+  margin-top: -20px;
+}
+
+.exploreCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exploreCard {
+  width: 18%;
+  cursor: pointer;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.exploreCard img {
+  width: 100%;
+  border-radius: 100%;
+}
+.exploreCard p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.exploreCard1 {
+  background-color: yellow;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.exploreCard1 p {
+  color: #000;
+}
+
+.exploreCard2 {
+  background-color: red;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard2 p {
+  color: #fff;
+}
+
+.exploreCard3 {
+  background-color: blue;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard3 p {
+  color: #fff;
+}
+
+.exploreCard4 {
+  background-color: red;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard4 p {
+  color: #fff;
+}
+
+.exploreCard5 {
+  background-color: orange;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exploreCard5 p {
+  color: #000;
+}
+
+.exploreOurWorldBox {
+  width: 39% !important;
+  border-bottom: 2px solid yellow;
+}
+
+.exploreOurWorldBox:hover {
+  border-bottom: none;
+}
+
+.businessCard {
+  background-color: #83aef2;
+  display: flex;
+  max-width: 400px;
+  padding: 20px;
+  align-items: center;
+  border-radius: 20px;
+  align-self: flex-start;
+  justify-self: flex-end;
+  margin-left: 70px;
+}
+
+.businessCardImgBox img {
+  width: 100px;
+  border-radius: 100%;
+}
+
+.businessCardTitle h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.businessCardTitle a {
+  color: #5a1f06;
+  border-bottom: 3px solid #5a1f06;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.businessCardTitle a:hover {
+  border-bottom: none;
+}
+
+.businessBox {
+  border-bottom: 3px solid yellow;
+  width: 38% !important;
+}
+
+/* NAVBAR DROPDOWN END*/
+
 .bigHalloPicture {
   background-image: url(https://cdn.media.amplience.net/i/marsmmsprod/Halloween-2022-Cohley-03?%24i%24=&w=1224&h=612&sm=c&fmt=auto&qlt=default);
   position: relative;
@@ -661,3 +1265,219 @@
 }
 
 /* only text section end */
+
+/* <!--FOOTER START--> */
+
+footer {
+  background-color: #f3f6fa;
+  position: relative;
+}
+.footerImg {
+  background-color: #ffd200;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerImg::before {
+  background: #f3f6fa;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  content: "";
+  left: -42%;
+  top: 24%;
+  position: absolute;
+  width: 185%;
+  z-index: 1;
+  height: 77%;
+}
+
+.footerImg img {
+  padding-top: 40px;
+  z-index: 1;
+}
+.svgIcon {
+  background-color: white;
+  border: 0px solid;
+  border-radius: 70px;
+  width: 200px;
+  height: 100px;
+}
+
+.locaIcon {
+  width: 190px;
+  height: 190px;
+}
+.contactPagesPB {
+  display: flex;
+  gap: 50px;
+  z-index: 1;
+  border-bottom: 1px solid;
+  padding-top: 15px;
+  height: 170px;
+  border-color: rgb(110, 166, 168);
+}
+.contactPagesPB h3 {
+  font-weight: 800;
+}
+.contactPagesPB a {
+  color: #5a1f06;
+  font-weight: 600;
+  border-bottom: 1px solid;
+  border-color: #ffd200;
+}
+.contactPagesPB a:hover {
+  border: none;
+}
+.svgIconItems {
+  display: flex;
+  gap: 25px;
+}
+.footerSecond {
+  z-index: 1;
+  border: 1px solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: rgb(110, 166, 168);
+}
+.iconSvg {
+  color: #5a1f06;
+  width: 30px;
+  height: 50px;
+}
+.footerSecond {
+  display: flex;
+  padding-top: 15px;
+  gap: 70px;
+  padding-bottom: 55px;
+}
+.dd {
+  border-bottom: 1px solid #ffd200;
+}
+.dd:hover {
+  border: none;
+}
+.secondOne {
+  width: 380px;
+  height: 30%;
+  margin-top: 50px;
+}
+.secondOne p {
+  font-size: 13px;
+}
+.secondOne h4 {
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #5a1f06;
+}
+.secondOne input {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: #f3f6fa;
+  height: 60px;
+  width: 300px;
+  font-size: 21px;
+}
+.yellowButton {
+  color: #5a1f06;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ffd200;
+  padding: 20px 90px;
+  border: 1px solid;
+  border-color: #ffd200;
+  border-radius: 30px;
+}
+.yellowButton:hover {
+  background-color: #ffd200;
+  box-shadow: -6px 6px #5a1f06;
+  border-color: #ffd200;
+}
+.secondOne a,
+i {
+  color: #5a1f06;
+}
+.secondTwo {
+  padding-top: 55px;
+}
+.secondTwo h4 {
+  color: #5a1f06;
+  font-size: 20px;
+}
+.secondTwo a {
+  color: black;
+  font-size: 16px;
+}
+.secondTwo a:hover {
+  border-bottom: 1px solid;
+  border-color: #ffd200;
+}
+.secondTree a:hover {
+  border-bottom: 1px solid;
+  border-color: #ffd200;
+}
+.secondTree {
+  padding-top: 55px;
+}
+.secondTree h4 {
+  color: #5a1f06;
+  font-size: 20px;
+}
+.secondTree a {
+  color: black;
+  font-size: 16px;
+}
+.secondFour {
+  padding-top: 55px;
+}
+.secondFour h4 {
+  color: #5a1f06;
+  font-size: 20px;
+}
+.secondFour i {
+  font-size: 40px;
+  padding: 20px;
+  align-items: center;
+}
+.secondFour i:hover {
+  background-color: #ffd200;
+  border: 0px solid;
+  border-radius: 50px;
+}
+.footerThirsty img {
+  width: 100px;
+  height: 100px;
+}
+.footerThirsty a {
+  color: black;
+}
+.footerThirsty {
+  z-index: 1;
+  display: flex;
+  gap: 17%;
+}
+.fullOne {
+  display: flex;
+}
+.fullOne a {
+  display: flex;
+}
+.one i {
+  font-size: 30px;
+}
+.full {
+  display: flex;
+}
+.two {
+  padding-top: 30%;
+  width: 50px;
+  height: 50px;
+}
+.barGnrl {
+  display: flex;
+}
+
+/* <!--FOOTER END--> */
